@@ -27,6 +27,5 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@ArchieK9](https://www.frontendmentor.io/profile/ArchieK9)
+- Twitter - [@ArchieJK9](https://www.twitter.com/ArchieJK9)
