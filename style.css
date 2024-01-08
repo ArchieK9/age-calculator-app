@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: hsl(0, 0%, 86%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.calculator{
+    border-radius: 1rem;
+    border-bottom-right-radius: 5rem;
+    margin: auto;
+    width: 45%;
+    height: 70%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0 2.5rem;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.input-row{
+    display: flex;
+    width: 100%;
+}
+
+input{
+    display: flex;
+    width: 50%;
+    height: 1.75rem;
+    margin-top: .5rem;
+    border-style: solid;
+    border-width: .005rem;
+    border-radius: .3rem;
+    box-sizing: border-box;
+    padding: .5rem;
+}
+
+input:enabled{
+    outline-color: hsl(259, 100%, 65%);
+    outline-width: .005rem;
+}
+
+::placeholder{
+    color:  hsl(0, 1%, 44%);
+    font-weight: 900;
+    line-height: 1;
+}
+
+.action{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+}
+
+hr{
+    width: 100%;
+    margin: auto 0;
+}
+
+button{
+    border-radius: 50%;
+    width: 5rem;
+    height: 4rem;
+    border-width: 0;
+    margin: 0;
+    background-color:  hsl(259, 100%, 65%);
+    cursor: pointer;
+}
+
+button:active{
+    background-color:  hsl(0, 0%, 8%);
+}
+
+.age{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 2.5rem;
+    box-sizing: border-box;
+}
+
+span{
+    margin: 0;
+    color: hsl(259, 100%, 65%);
+}
+
+p{
+    font-weight: 800;
+    font-size: 32px;
+    margin: 0;
+}
+
+@media(max-width:768px){
+
+    .calculator{
+        height: 80%;
+    }
+
+    .action{
+        position: relative;
+        top: 3rem;
+    }
+
+    hr{
+        width: 100%;
+    }
+
+    form{
+        margin-bottom: 3rem;
+        margin-top: 0rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    input{
+        position: relative;
+        right: -15%;
+        width: 75%;
+    }
+
+    button{
+        position: absolute;
+        width: 4rem;
+        margin: .3rem 0;
+    }
+
+    .age{
+        margin-top: 3rem;
+    }
+}
+
+@media(max-width:425px){
+    .calculator{
+        width: 95%;
+    }
+}
+
+@media(max-width:320px){
+
+    form{
+        padding: 0 2.5rem;
+    }
+
+    input{
+        width: 90%;
+        padding: .5rem;
+    }
+}
