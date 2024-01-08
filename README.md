@@ -12,8 +12,8 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ## Overview
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://archiek9.github.io/age-calculator-app/))
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://archiek9.github.io/age-calculator-app/))
+- Solution URL: [Add solution URL here]((https://archiek9.github.io/age-calculator-app/))
+- Live Site URL: [Add live site URL here]((https://archiek9.github.io/age-calculator-app/))
 
 ## My process
 
